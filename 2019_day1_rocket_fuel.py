@@ -9,7 +9,7 @@ Return an int
 from pathlib import Path
 
 # notice the use of forward slash "/" even though its Windows. this is how Path works
-FILENAME = Path("C:/Users/BrianC/Desktop/Coding Sandbox/AdventOfCode/2019_day1_input.txt")
+FILENAME = "2019_day1_input.txt"
 
 lineList = []
 with open(FILENAME, "r") as f:
